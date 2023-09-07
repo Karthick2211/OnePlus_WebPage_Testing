@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Oneplus_Webpage.Page_Open_Close">
+        <methods>
+          <include name="Page_Open"/>
+          <include name="Checkout"/>
+          <include name="Page_Close"/>
+        </methods>
+      </class> <!-- Oneplus_Webpage.Page_Open_Close -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
